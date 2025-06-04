@@ -9,6 +9,7 @@
 <body>
   <div class="image-section">
     <img src="assets/halie-west-25xggax4bSA-unsplash.jpg" alt="Big green leaves in rain, detailed nature shot">
+    <!-- <p>Photo by <a href="">Hailie West</a> on <a href="">Unsplash</a></p> -->
   </div>
   <div class="form-section">
     <div class="form-header">
@@ -19,16 +20,33 @@
     <form action="example.com" method="post">
       <p>
         <label for="fname">FIRST NAME</label>
-        <input type="text" id="fname" name="fname" placeholder="Thor">
+        <input type="text" name="fname" id="fname" placeholder="Thor">
       </p>
       <p>
-        
+        <label for="lname">LAST NAME</label>
+        <input type="text" name="lname" id="lname" placeholder="Odinson">
+      </p>
+      <p>
+        <label for="email">EMAIL</label>
+        <input type="email" name="user_email" id="email">
+      </p>
+      <p>
+        <label for="phonenum">PHONE NUMBER</label>
+        <input type="tel" name="user_phonenum" id="phonenum">
+      </p>
+      <p>
+        <label for="password">PASSWORD</label>
+        <input type="password" name="user_pw" id="password">
+      </p>
+      <p>
+        <label for="passwordconfirm">CONFIRM PASSWORD</label>
+        <input type="password" name="user_pw" id="passwordconfirm">
       </p>
       <div class="form-submit">
         <button type="submit">Create account</button>
+        <p>Already have an account? <a href="">Log in</a></p>
       </div>
     </form>
-    
   </div>
 </body>
 </html>
