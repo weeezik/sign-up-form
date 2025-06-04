@@ -22,3 +22,16 @@ img {
   width: 100%;
   height: 100%;
 }
+
+div.form-header {
+  background-color: lightgrey;
+}
+
+form {
+  background-color: white;
+}
+
+div.form-submit {
+  background-color: lightgrey;
+}
+
