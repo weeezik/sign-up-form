@@ -4,6 +4,9 @@
 
 body {
   margin: 0px 100px;
+  display: flex;
+  flex-direction: row;
+
 }
 
 /* body {
@@ -12,6 +15,14 @@ body {
 } */
 
 img {
-  width: 40%;
-  height: 40%;
+  width: 80%;
+  height: 100%;
 }
+
+div.form-section {
+  border: 1px solid blue;
+}
+
+/* div[class="form-header"], div[class="form-submit"], form {
+  border-right: 2px solid red;
+} */
