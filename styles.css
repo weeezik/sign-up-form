@@ -59,6 +59,11 @@ div.pic-credit > a {
 }
 
 /* Form Section */
+input, button {
+  font-family: inherit;
+  font-size: 100%;
+}
+
 div.form-section {
   border: 1px solid blue;
   display: flex;
@@ -92,7 +97,7 @@ div.form-submit > button {
   margin: 12px;
   border: 1px solid #E5E7EB;
   border-radius: 8px;
-  font-size: 1rem;
+  font-size: 1.2rem;
 
 
 }
@@ -107,18 +112,18 @@ label {
 }
 
 input {
+  appearance: none;
   border: 1px solid #E5E7EB;
   border-radius: 4px;
-  width: 200px;
+  width: 150px;
   height: 20px;
 }
 
 input:focus {
   /* box shadow */
-  box-shadow: 2px;
+  box-shadow: inset 1px 1px 3px #ccc;
 }
 
 input[type="password"]:invalid {
   border: 1px solid red;
 }
-
