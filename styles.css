@@ -18,15 +18,15 @@ body {
   justify-content: center;
 }
 
+/* Image Section */
 div.image-section {
   position: relative;
   margin: 0px;
   padding: 0px;
-  width: 800px;
+  width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 div.odinbanner {
@@ -53,12 +53,18 @@ div.pic-credit {
   font-size: small;
   font-family: Arial, Helvetica, sans-serif
 }
+
 div.pic-credit > a {
   color: white;
 }
 
+/* Form Section */
 div.form-section {
   border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
 }
 
 img {
@@ -67,7 +73,7 @@ img {
 }
 
 div.form-header {
-  background-color: lightgrey;
+  background-color: rgb(242, 239, 239);
 }
 
 form {
@@ -75,10 +81,44 @@ form {
 }
 
 div.form-submit {
-  background-color: lightgrey;
+  background-color: rgb(242, 239, 239);
 }
+
 div.form-submit > button {
   appearance: none;
+  color: white;
   background-color: #596D48;
+  padding: 4px 12px;
+  margin: 12px;
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+  font-size: 1rem;
+
+
+}
+
+p.login > a {
+  text-decoration: none;
+  color: #596D48;
+}
+
+label {
+  font-size: 0.5em;
+}
+
+input {
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+  width: 200px;
+  height: 20px;
+}
+
+input:focus {
+  /* box shadow */
+  box-shadow: 2px;
+}
+
+input[type="password"]:invalid {
+  border: 1px solid red;
 }
 
