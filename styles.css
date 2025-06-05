@@ -23,7 +23,7 @@ div.image-section {
   position: relative;
   margin: 0px;
   padding: 0px;
-  width: 1200px;
+  width: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,11 +65,10 @@ input, button {
 }
 
 div.form-section {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 20px;
 }
 
 img {
@@ -79,10 +78,12 @@ img {
 
 div.form-header {
   background-color: rgb(242, 239, 239);
+  padding: 20px;
 }
 
 form {
   background-color: white;
+  padding: 20px;
 }
 
 div.form-submit {
@@ -107,6 +108,15 @@ p.login > a {
   color: #596D48;
 }
 
+input, label, button {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 label {
   font-size: 0.5em;
 }
@@ -121,7 +131,7 @@ input {
 
 input:focus {
   /* box shadow */
-  box-shadow: inset 1px 1px 3px #ccc;
+  box-shadow: inset 1px 1px 3px #111010;
 }
 
 input[type="password"]:invalid {
