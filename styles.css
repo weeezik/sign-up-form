@@ -16,6 +16,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: rgb(242, 239, 239);
 }
 
 /* Image Section */
@@ -58,12 +59,12 @@ div.pic-credit > a {
   color: white;
 }
 
-/* Form Section */
-input, button {
-  font-family: inherit;
-  font-size: 100%;
+img {
+  width: 100%;
+  height: 100%;
 }
 
+/* Form Section */
 div.form-section {
   /* border: 1px solid blue; */
   display: flex;
@@ -71,41 +72,17 @@ div.form-section {
   justify-content: center;
 }
 
-img {
-  width: 100%;
-  height: 100%;
-}
-
 div.form-header {
-  background-color: rgb(242, 239, 239);
   padding: 20px;
 }
+
+/* div.form-submit {
+  background-color: rgb(242, 239, 239);
+} */
 
 form {
   background-color: white;
   padding: 20px;
-}
-
-div.form-submit {
-  background-color: rgb(242, 239, 239);
-}
-
-div.form-submit > button {
-  appearance: none;
-  color: white;
-  background-color: #596D48;
-  padding: 4px 12px;
-  margin: 12px;
-  border: 1px solid #E5E7EB;
-  border-radius: 8px;
-  font-size: 1.2rem;
-
-
-}
-
-p.login > a {
-  text-decoration: none;
-  color: #596D48;
 }
 
 input, label, button {
@@ -118,22 +95,45 @@ input, label, button {
 }
 
 label {
-  font-size: 0.5em;
+  font-size: 0.7em;
 }
 
 input {
   appearance: none;
   border: 1px solid #E5E7EB;
   border-radius: 4px;
-  width: 150px;
-  height: 20px;
+  width: 200px;
+  height: 30px;
 }
 
+div.forminputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 90px;
+}
+
+/* Special Styling */
+
 input:focus {
-  /* box shadow */
-  box-shadow: inset 1px 1px 3px #111010;
+  box-shadow: inset 1px 1px 3px;
 }
 
 input[type="password"]:invalid {
   border: 1px solid red;
+}
+
+div.form-submit > button {
+  appearance: none;
+  color: white;
+  background-color: #596D48;
+  padding: 4px 12px;
+  margin: 12px;
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+  font-size: 1.2rem;
+}
+
+p.login > a {
+  text-decoration: none;
+  color: #596D48;
 }
