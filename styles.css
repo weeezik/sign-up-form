@@ -45,6 +45,17 @@ img.logo {
   width: 60px;
 }
 
+div.pic-credit {
+  position: absolute;
+  color: white;
+  bottom: 20px;
+  left: 150px;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif
+}
+div.pic-credit > a {
+  color: white;
+}
 
 div.form-section {
   border: 1px solid blue;
@@ -65,5 +76,9 @@ form {
 
 div.form-submit {
   background-color: lightgrey;
+}
+div.form-submit > button {
+  appearance: none;
+  background-color: #596D48;
 }
 
